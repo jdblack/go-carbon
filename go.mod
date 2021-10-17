@@ -18,10 +18,10 @@ require (
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/go-graphite/carbonzipper v0.0.0-20180329125635-fedce067a794
 	github.com/go-graphite/go-whisper v0.0.0-20191220103904-f154aca40cdb
-	github.com/go-graphite/protocol v0.4.3-0.20180731190405-5ae324d48067
-	github.com/gogo/protobuf v1.1.2-0.20180830160456-5669497fd644
+	github.com/go-graphite/protocol v1.0.1-0.20210605224534-ac8ad6ab1f97
+	github.com/gogo/protobuf v1.3.2
 	github.com/golang/snappy v0.0.0-20180518054509-2e65f85255db // indirect
-	github.com/google/go-cmp v0.5.0
+	github.com/google/go-cmp v0.5.5
 	github.com/kardianos/osext v0.0.0-20170510131534-ae77be60afb1 // indirect
 	github.com/klauspost/compress v1.4.0
 	github.com/klauspost/cpuid v0.0.0-20170728055534-ae7887de9fa5 // indirect
@@ -46,7 +46,7 @@ require (
 	go.uber.org/atomic v1.3.2 // indirect
 	go.uber.org/multierr v1.1.0 // indirect
 	go.uber.org/zap v1.9.1
-	golang.org/x/net v0.0.0-20200520004742-59133d7f0dd7
+	golang.org/x/net v0.0.0-20210525063256-abc453219eb5
 	google.golang.org/api v0.29.0
-	google.golang.org/grpc v1.30.0
+	google.golang.org/grpc v1.38.0
 )
