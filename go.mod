@@ -17,7 +17,7 @@ require (
 	github.com/eapache/go-xerial-snappy v0.0.0-20180814174437-776d5712da21 // indirect
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/go-graphite/carbonzipper v0.0.0-20180329125635-fedce067a794
-	github.com/go-graphite/go-whisper v0.0.0-20191220103904-f154aca40cdb
+	github.com/go-graphite/go-whisper v0.0.0-20211118074739-34ef0e489351
 	github.com/go-graphite/protocol v0.4.3-0.20180731190405-5ae324d48067
 	github.com/gogo/protobuf v1.1.2-0.20180830160456-5669497fd644
 	github.com/golang/snappy v0.0.0-20180518054509-2e65f85255db // indirect

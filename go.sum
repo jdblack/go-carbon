@@ -81,6 +81,14 @@ github.com/go-graphite/carbonzipper v0.0.0-20180329125635-fedce067a794 h1:9N+1I8
 github.com/go-graphite/carbonzipper v0.0.0-20180329125635-fedce067a794/go.mod h1:sfZ+AkP8/bBcWSGVqhseV6t6e/+C0i/PkTpA32W5rXs=
 github.com/go-graphite/go-whisper v0.0.0-20191220103904-f154aca40cdb h1:XkDrq9Z5YFcFfWUgLNJgO5Olx6csDoyJnWpn6O5Sq3k=
 github.com/go-graphite/go-whisper v0.0.0-20191220103904-f154aca40cdb/go.mod h1:XnU8q9X8C3OhD8R7gAlRLI6VXU2KMwqgTO9Tshub2qE=
+github.com/go-graphite/go-whisper v0.0.0-20211031142514-ead7de206c82 h1:rmanzP8psaJCtab9so1ruPjTuaCHnAIwpPYtRIMdbLY=
+github.com/go-graphite/go-whisper v0.0.0-20211031142514-ead7de206c82/go.mod h1:XnU8q9X8C3OhD8R7gAlRLI6VXU2KMwqgTO9Tshub2qE=
+github.com/go-graphite/go-whisper v0.0.0-20211103123813-7b0b78bb3989 h1:/22pPmvvrBO7lbnqG46XbwFJSNRRg2evl4kt9yWRIPU=
+github.com/go-graphite/go-whisper v0.0.0-20211103123813-7b0b78bb3989/go.mod h1:XnU8q9X8C3OhD8R7gAlRLI6VXU2KMwqgTO9Tshub2qE=
+github.com/go-graphite/go-whisper v0.0.0-20211118071051-7c36b624d512 h1:NE0VbtYatvyHn8VO+i/9H/NRv38bCxCVg1Ksql/eSxc=
+github.com/go-graphite/go-whisper v0.0.0-20211118071051-7c36b624d512/go.mod h1:XnU8q9X8C3OhD8R7gAlRLI6VXU2KMwqgTO9Tshub2qE=
+github.com/go-graphite/go-whisper v0.0.0-20211118074739-34ef0e489351 h1:io1bmR3ed9hledw90hOMmHQcVSwTASJm126/H9c9pik=
+github.com/go-graphite/go-whisper v0.0.0-20211118074739-34ef0e489351/go.mod h1:XnU8q9X8C3OhD8R7gAlRLI6VXU2KMwqgTO9Tshub2qE=
 github.com/go-graphite/protocol v0.4.3-0.20180731190405-5ae324d48067 h1:3xaKhHeiu8sY1oFpgw8mou3IztFUB92FIGwDncZKJCs=
 github.com/go-graphite/protocol v0.4.3-0.20180731190405-5ae324d48067/go.mod h1:tJs3CWCesQ9Laqjz5pbMDHqJlPHDUZv502EtN7qujzQ=
 github.com/gogo/protobuf v1.1.2-0.20180830160456-5669497fd644 h1:GsuTRapGULopujrq87TLdlXsp6m3q/tOwxgx7EEwhKc=
