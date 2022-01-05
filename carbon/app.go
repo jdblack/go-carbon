@@ -3,6 +3,7 @@ package carbon
 import (
 	"errors"
 	"fmt"
+	"log"
 	"net"
 	"net/url"
 	"os"
@@ -591,5 +592,19 @@ func (app *App) Loop() {
 
 	if exitChan != nil {
 		<-app.exit
+	}
+}
+
+func (app *App) CheckPersisterPolicyConsistencies(rate int, printInconsistentMetrics bool) {
+	p := persister.NewWhisper(
+		app.Config.Whisper.DataDir,
+		app.Config.Whisper.Schemas,
+		app.Config.Whisper.Aggregation,
+		nil, nil, nil, nil,
+	)
+	err := p.CheckPolicyConsistencies(rate, printInconsistentMetrics)
+	if err != nil {
+		log.Printf("failed to check policy consistencies: %s\n", err)
+		return
 	}
 }
